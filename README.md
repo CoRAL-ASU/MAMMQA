@@ -1,4 +1,4 @@
-# Rethinking Information Synthesis in Multimodal Question Answering <br> A Multi-Agent Perspective
+# Rethinking Information Synthesis in Multimodal Question Answering A Multi-Agent Perspective
 [![IJCNLP 2025](https://img.shields.io/badge/IJCNLP%202025-Paper-blue)](https://aclanthology.org/2025.ijcnlp-long.192/)
 [![arXiv](https://img.shields.io/badge/arXiv-2505.20816-b31b1b.svg)](https://arxiv.org/abs/2505.20816)
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://coral-lab-asu.github.io/MAMMQA/)
