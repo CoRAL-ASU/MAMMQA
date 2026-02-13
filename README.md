@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2505.20816-b31b1b.svg)](https://arxiv.org/abs/2505.20816)
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://coral-lab-asu.github.io/MAMMQA/)
 [![Slides](https://img.shields.io/badge/Slides-PDF-orange)](https://coral-lab-asu.github.io/presentation_docs/MAMMQA_Presentation.pdf)
-[![Poster](https://img.shields.io/badge/Poster-PDF-purple)](./assets/MAMMQA_Poster.pdf)
+[![Poster](https://img.shields.io/badge/Poster-PDF-purple)](./static/pdf/MAMMQA_Poster.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
@@ -14,7 +14,7 @@ This repository contains reference code for **MAMMQA**, a *multi-agent* framewor
 
 ## Overview
 
-![arch](https://github.com/CoRAL-ASU/MAMMQA/blob/ce5909ba1857451a7170c95698cdd6522a3c18e7/assets/Rethinking_Information_Synthesis_in_Multimodal_Question_Answering.pdf)
+![arch](static/images/overview.png)
 
 Multimodal Question Answering (MMQA) requires synthesizing information across **text, tables, and images**. Most existing approaches rely on a single large model to jointly reason over all modalities, often leading to shallow cross-modal grounding and limited interpretability.
 
@@ -317,4 +317,4 @@ If you'd like, tell me which exact dataset files and model names you used in the
 
 ## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
