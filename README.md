@@ -79,8 +79,7 @@ Two baseline types are provided in `agents.py`:
 
 Run a baseline interactively (Python snippet). This directly calls the functions in `agents.py` and prints output:
 
-```bash
-python - <<'PY'
+```python
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -110,7 +109,7 @@ print("ZS baseline:", zs)
 # run CoT baseline
 cot = agents.get_answer_cot(client, ex["question"], ex["text"], ex["table"], ex["images"], model="gpt-4o-mini")
 print("CoT baseline:", cot)
-PY
+
 ```
 
 If you prefer a shell wrapper, create `run_baseline.py` with the above content (adapt dataset paths & model).
@@ -121,8 +120,7 @@ If you prefer a shell wrapper, create `run_baseline.py` with the above content (
 
 The main multi-agent pipeline is provided as functions in `agents.py` (e.g., `get_answer_MM`, `get_answer_Many`). Example to run the full 3-stage pipeline:
 
-```bash
-python - <<'PY'
+```python
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -153,7 +151,7 @@ res = get_answer_MM(
     verbose=True  # prints intermediate agent outputs
 )
 print("Final Answer:\n", res["Final Answer"])
-PY
+
 ```
 
 Key options:
@@ -171,8 +169,7 @@ Two files are relevant:
 
 Example invocation (interactive):
 
-```bash
-python - <<'PY'
+```python
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -207,7 +204,7 @@ result = totdfs.run_dfs(
     model="gpt-4o-mini"
 )
 print("ToT best:", result)
-PY
+
 ```
 
 Notes:
@@ -309,7 +306,6 @@ If you'd like, tell me which exact dataset files and model names you used in the
     url = "https://aclanthology.org/2025.ijcnlp-long.192/",
     pages = "3674--3686",
     ISBN = "979-8-89176-298-5"
-}
 }
 ```
 
