@@ -14,7 +14,7 @@ This repository contains reference code for **MAMMQA**, a *multi-agent* framewor
 
 ## Overview
 
-![arch](./assets/Rethinking_Information_Synthesis_in_Multimodal_Question_Answering.pdf)
+![arch](https://github.com/CoRAL-ASU/MAMMQA/blob/ce5909ba1857451a7170c95698cdd6522a3c18e7/assets/Rethinking_Information_Synthesis_in_Multimodal_Question_Answering.pdf)
 
 Multimodal Question Answering (MMQA) requires synthesizing information across **text, tables, and images**. Most existing approaches rely on a single large model to jointly reason over all modalities, often leading to shallow cross-modal grounding and limited interpretability.
 
