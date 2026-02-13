@@ -228,14 +228,13 @@ python Eval.py --pred predictions.jsonl --gold data/dev.jsonl --out results.json
 
 If `Eval.py` is a module with functions, call it interactively:
 
-```bash
-python - <<'PY'
+```python
 from Eval import process_predictions, compute_semantic_accuracy
 preds = "outputs/predictions.jsonl"
 gold = "data/dev.jsonl"
 report = compute_semantic_accuracy(preds, gold, normalize=True)
 print(report)
-PY
+
 ```
 
 **If `Eval.py` does not implement a CLI**, use the interactive snippet above and adapt to actual function names (e.g., `process_csv_file`, `compute_overall_accuracy`).
